@@ -21,11 +21,11 @@ def home_page():
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Python</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Dharmeshkumar Patel</h1></div>""")  # TODO: Add your name
 
 
     # ----- Profile image file -----
-    profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+    profile_image_file_path = "profile.jpg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
     with open(profile_image_file_path, "rb") as img_file:
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -52,17 +52,17 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-    - 🧑‍💻 I am a <Current Role and/or Studies> 
+    - 🧑‍💻 I am a student at EAE Busines School pursuing Master in Big data & Analytics. 
 
-    - 🛩️ prev: <Previous Experience, Background or Studies>
+    - 🛩️ Senior Android Developer holding an MSc. IT, specializing in building high-performance mobile applications
 
-    - ❤️ <Your Passion and/or Interests>
+    - ❤️ Future Machine Learning Specialist with a passion for building intelligent systems and predictive models.
 
-    - 🤖 <Your Personal Projects>
+    - 🤖 Personal Projects
 
-    - 🏂 <Your Hobbies>
+    - 🏂 Cycling, Listing music, cricket
 
-    - 📫 How to reach me: <Your Email>
+    - 📫 dharshadbhaipatel@student.eae.es
 
     - 🏠 Barcelona
     """)
